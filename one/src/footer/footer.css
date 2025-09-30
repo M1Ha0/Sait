@@ -1,0 +1,112 @@
+end{
+    margin: 0 auto;
+    width: 1920px;
+    height: 488px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fotn{
+    width: 1920px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 70px;
+    border-bottom: solid 1px #EBEBF0;
+}
+.boxlogo{
+    display: flex;
+    width: 271px;
+    height: 26px;
+    justify-content: space-between;
+    align-items: center;
+}
+.socseti{
+
+    display: flex;
+    width: 66px;
+    height: 26px;
+    justify-content: space-between;
+    align-items: center;
+}
+.bigph{
+    
+    font-family: Noto Sans;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 32px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+}
+.silka{
+     margin: 0 auto;
+    width: 1440px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.silkaul{
+    width: 230px;
+     margin: 0;
+    height: 164px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+    text-align: start;
+}
+.lishka{
+     margin: 0;
+    height: 26px;
+    width: 209px;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #292D33;
+}
+.silkali{
+    margin: 0;
+    height: 26px;
+    width: 209px;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #828A99;
+}
+.ending{
+    margin: 0;
+    width: 1940px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#828A99 ;
+    border-top:solid 1px #EBEBF0 ;
+}
+.finlcount1{
+    width: 660px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.finlcount1 a{
+    color:#828A99 ;
+}
+.finlcount2{
+    width: 155px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

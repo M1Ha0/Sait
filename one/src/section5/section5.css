@@ -1,0 +1,223 @@
+.air{
+    margin: 0 auto;
+    width: 1920px;
+    height: 722px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.podair{
+    margin: 0 auto;
+    width: 1440px;
+    height: 512px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mac{
+    display: flex;
+    width: 1640px;
+    height: 590px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+.leftking{
+    width: 700px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    margin: 0;
+}
+.leftking h1{
+    width: 950px;
+}
+.listbk{
+    width: 310px;
+    height: 230px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: start;
+}
+.listbk li{
+    margin: 0;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #292D33;
+
+}
+.listik1{
+    list-style-image:url(../assets/him.png);
+}
+.listik2{
+    list-style-image:url(../assets/car.png);
+}
+.listik3{
+    list-style-image:url(../assets/eat.png);
+}
+.listik4{
+    list-style-image:url(../assets/brush.png);
+}
+.listik5{
+    list-style-image:url(../assets/cosmetic.png);
+}
+.listik6{
+    list-style-image:url(../assets/car-cosm.png);
+}
+.listik7{
+    list-style-image:url(../assets/shirt.png);
+}
+.listik8{
+    list-style-image:url(../assets/boots.png);
+}
+.listik9{
+    list-style-image:url(../assets/bricks.png);
+}
+.listik10{
+    list-style-image:url(../assets/more.png);
+}
+.counul{
+width: 640px;
+height: 240px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.rightking{
+   width: 729px;
+   height: 480px;
+   display: flex;
+   flex-wrap: wrap; 
+   margin: 0;
+}
+.rightking div{
+    width: 240px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #EBEBF0 ;
+}
+.king1{
+    position: absolute;
+}
+.hoverking1{
+    position: absolute;
+    opacity: 0;
+}
+.burger1:hover .king1 {
+    opacity: 0;
+}
+.burger1:hover .hoverking1{
+    opacity: 1;
+}
+.king2{
+    position: absolute;
+}
+.hoverking2{
+    position: absolute;
+    opacity: 0;
+}
+.burger2:hover .king2 {
+    opacity: 0;
+}
+.burger2:hover .hoverking2{
+    opacity: 1;
+}
+.king3{
+    position: absolute;
+}
+.hoverking3{
+    position: absolute;
+    opacity: 0;
+}
+.burger3:hover .king3 {
+    opacity: 0;
+}
+.burger3:hover .hoverking3{
+    opacity: 1;
+}
+.king4{
+    position: absolute;
+}
+.hoverking4{
+    position: absolute;
+    opacity: 0;
+}
+.burger4:hover .king4 {
+    opacity: 0;
+}
+.burger4:hover .hoverking4{
+    opacity: 1;
+}
+.king5{
+    position: absolute;
+}
+.hoverking5{
+    position: absolute;
+    opacity: 0;
+}
+.burger5:hover .king5 {
+    opacity: 0;
+}
+.burger5:hover .hoverking5{
+    opacity: 1;
+}
+.king6{
+    position: absolute;
+}
+.hoverking6{
+    position: absolute;
+    opacity: 0;
+}
+.burger6:hover .king6 {
+    opacity: 0;
+}
+.burger6:hover .hoverking6{
+    opacity: 1;
+}
+.king7{
+    position: absolute;
+}
+.hoverking7{
+    position: absolute;
+    opacity: 0;
+}.burger7:hover .king7 {
+    opacity: 0;
+}
+.burger7:hover .hoverking7{
+    opacity: 1;
+}
+.king8{
+    position: absolute;
+}
+.hoverking8{
+    position: absolute;
+    opacity: 0;
+}
+.burger8:hover .king8 {
+    opacity: 0;
+}
+.burger8:hover .hoverking8{
+    opacity: 1;
+}
+.king9{
+    position: absolute;
+}
+.hoverking9{
+    position: absolute;
+    opacity: 0;
+}
+.burger9:hover .king9 {
+    opacity: 0;
+}
+.burger9:hover .hoverking9{
+    opacity: 1;
+}

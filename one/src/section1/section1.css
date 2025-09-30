@@ -1,0 +1,77 @@
+.sekta{
+    margin: 0 auto;
+    width: 1920px;
+    height: 722px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line1{
+    margin: 0;
+    width: 150px;
+    border: solid 1px #5C8EE5;
+}
+.podsekta{
+    margin: 0;
+    width: 1410px;
+    height: 421px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.work{
+    margin: 0;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 60px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #292D33;
+}
+.znak1{
+    width: 1410px;
+    height: 267px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.znak1 h1{
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #5C8EE5;
+    margin: 0;
+}
+.cham{
+    width: 330px;
+    height: 267px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+.text3{
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 28px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #292D33;
+}
+.textmal{
+    color: #828A99;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+}
+.atext{
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #5C8EE5;
+}

@@ -1,0 +1,128 @@
+header{
+    margin: 0 auto;
+    width: 1920px;
+    height: 970px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../assets/main_img.png);
+}
+.img1{
+    border-right: solid 1px #EBEBF033;
+}
+
+.countkomp{
+       margin: 0;
+    width: 892px;
+    height: 94px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: white;
+    border-left: solid 2px #EBEBF033;
+}
+.line{
+    width: 150px;
+    margin-left: 420px;
+    border-top: solid 2px #5C8EE5 ;
+}
+.ph{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: white;
+    width: 170px;
+    height: 26px;
+}
+.kons{
+    width: 302px;
+    height: 94px;
+    background-color: #5C8EE5;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: white;
+    border: none;
+    margin: 0;
+}
+.contm{
+    
+    width: 1080px;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.texttop{
+    
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color:#FFFFFF;
+}
+.textbot{
+    margin: 0;
+    width: 720px;
+    height: 78px;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color:#FFFFFF;
+}
+.rabbox{
+    width: 288px;
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: solid 1px #EBEBF033;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    align-items: start;
+
+}
+.rabbox img{
+    margin: 0;
+    margin-left: 50px;
+}
+.fot1{
+    display: flex;
+
+}
+.textfot{
+    width: 188px;
+    height: 62px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 160%;
+    letter-spacing: 0%;
+}
+.box1{
+    width: 1920px;
+    height: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px #EBEBF033;
+}
+.linka{
+    color: #FFFFFF;
+    text-decoration: none;
+}
