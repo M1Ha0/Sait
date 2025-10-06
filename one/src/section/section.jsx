@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './header.css'
+import './section.css'
 import photo1 from '../assets/logo.png'
 import photo2 from '../assets/phone.png'
 import ikon1  from '../assets/Frame 33.png'
@@ -9,39 +9,14 @@ import ikon4  from '../assets/Frame 36.png'
 import ikon5  from '../assets/Frame 37.png'
 import { Link } from 'react-router-dom'
 
-function Header() {
+function Section() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <header>
-      <nav className='box1'>
-       <Link to = {'/'}>
-        <img className='img1' src={photo1} />
-       </Link>
-       <ul className='countkomp'>
-        <li>
-          <Link to = {'about'} className='linka'>О компании</Link>
-        </li>
-        <li>
-          <a className='komp'>Контрактное производство</a>
-        </li>
-        <li>
-          <a className='komp'>Собственные торговые марки</a>
-        </li>
-        <li>
-          <a className='komp'>Новости</a>
-        </li>
-        <li>
-          <a className='komp'>Контакты</a>
-        </li>
-       </ul>
-       <div className='ph'>
-        <img src={photo2} alt="" />
-        <p className='phone'>+7 (499) 686-10-14</p>
-       </div>
-       <button className='kons'>Получить консультацию</button>
-      </nav>
+
+    <section className='header'>
+      <Header/>
       <div className='line'></div>
       <div className='contm'>
         <h1 className='texttop'>КОМПЛЕКСНОЕ ОБЕСПЕЧЕНИЕ ТОВАРАМИ И РАСХОДНЫМИ МАТЕРИАЛАМИ БИЗНЕСА</h1>
@@ -77,8 +52,8 @@ function Header() {
             производство</p>
         </div>
       </footer>
-    </header>
+    </section>
     </>
   )
 }
-export default Header
+export default Section

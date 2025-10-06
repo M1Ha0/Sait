@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Maine_page from './main_page/main_page'
 import Aboute from './aboute/aboute'
-import Header from './header/header'
+import Header from './section/section'
 
 import {Routes,Route,Link} from 'react-router-dom'
 function App() {

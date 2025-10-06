@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
-import Header from './header/header.jsx'
+import Header from './section/section.jsx'
 import Footer from './footer/footer.jsx'
 import { BrowserRouter } from 'react-router-dom'
 
