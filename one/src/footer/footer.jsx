@@ -59,7 +59,7 @@ function Footer() {
         </ul>
         <ul className='silkaul'>
           <li className='lishka'>
-            <Link to = {'/own_product'} >Собственные марки </a>
+            <Link to = {'/own_product'} className='linkfo' >Собственные марки </Link>
           </li>
           <li className='silkali'>
            <Link to = {'/product_agtech'} className='linkfom'>Автохимия AG-Tech</Link>

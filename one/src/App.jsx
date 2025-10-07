@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.scss'
+import './App.css'
 import Maine_page from './main_page/main_page'
 import Aboute from './aboute/aboute'
 import Contract_product from './contract_product/contract_product'
