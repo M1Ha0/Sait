@@ -1,4 +1,4 @@
-end{
+.end{
     margin: 0 auto;
     width: 1920px;
     height: 488px;
@@ -109,4 +109,12 @@ end{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.linkfo{
+    color: #292D33;
+    text-decoration: none;
+}
+.linkfom{
+    color: #828A99;
+    text-decoration: none;
 }

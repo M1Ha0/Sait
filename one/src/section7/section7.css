@@ -1,7 +1,7 @@
 .balon{
     width: 1920px;
     height: 626px;
-    
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;

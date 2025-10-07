@@ -6,14 +6,14 @@ import vk from '../assets/vk.png'
 import inst from '../assets/inst.png'
 import logoB from '../assets/logoB.png'
 import ruso from '../assets/Group 48.png'
-
+import { Link } from 'react-router-dom'
 function Footer() {
   const [count, setCount] = useState(0)
 
   return (
     <footer className='end'>
       <nav className='fotn'>
-        <img src={logoB} alt="" />
+         <Link to = {'/'}><img src={logoB} alt="" /></Link>
         <a className='bigph'>+7 (499) 686-10-14</a>
         <div className='boxlogo'>
           <img src={mart} alt="" />
@@ -31,10 +31,10 @@ function Footer() {
       <div className='silka'>
         <ul className='silkaul'>
           <li className='lishka'>
-            <a >Контрактное производство</a>
+            <Link to = {'/contract_product'} className='linkfo'>Контрактное производство</Link>
           </li>
           <li className='silkali'>
-            <a >Автомобильная химия</a>
+            <Link to = {'/product_avtohim'} className='linkfom'>Автомобильная химия</Link>
           </li>
           <li className='silkali'>
             <a >Бытовая химия</a>
@@ -59,10 +59,10 @@ function Footer() {
         </ul>
         <ul className='silkaul'>
           <li className='lishka'>
-            <a >Собственные марки </a>
+            <Link to = {'/own_product'} >Собственные марки </a>
           </li>
           <li className='silkali'>
-            <a >Автохимия AG-Tech</a>
+           <Link to = {'/product_agtech'} className='linkfom'>Автохимия AG-Tech</Link>
           </li>
           <li className='silkali'>
             <a >Автохимия AP</a>
@@ -73,13 +73,13 @@ function Footer() {
         </ul>
         <ul className='silkaul'>
           <li className='lishka'>
-            <a >О компании</a>
+            <Link to = {'/about'} className='linkfo'>О компании</Link>
           </li>
           <li className='lishka'>
-            <a >Новости</a>
+            <Link to = {'/blog'}  className='linkfo'>Новости</Link>
           </li>
           <li className='lishka'>
-            <a >Контакты</a>
+            <Link to = {'/contact'} className='linkfo'>Контакты</Link>
           </li>
           <li className='lishka'>
             <a ></a>
@@ -89,7 +89,7 @@ function Footer() {
     <div className='ending'>
       <div className='finlcount1'>
         <a >© 2022 «Aliance Production». Все права защищены.</a>
-        <a href=''>Политики конфиденциальности</a>
+        <Link to = {'/politics'}>Политики конфиденциальности</Link>
       </div>
       <div className='finlcount2'>
         <p>Сделано в</p>

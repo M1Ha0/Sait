@@ -1,0 +1,129 @@
+.map{
+    width: 1920px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.podmap{
+    width: 1440px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+.fotnmap{
+     width: 1440px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.textmalA{
+    font-family: Noto Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #292D33;
+}
+.aboute1{
+    background-image: url(../assets/Frame432.png);
+    margin: 0 auto;
+    width: 1920px;
+    height: 270px;
+    background-color: #F0F2F5;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.ggtext{
+    font-family: Noto Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: white;
+}
+.sovnext{
+    font-family: Bebas Neue;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 60px;
+    color: #FFFFFF;
+    line-height: 120%;
+    letter-spacing: 0%;
+
+}
+.textdozh{
+    margin: 0 auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 1920px;
+    height: 2200px;
+}
+.twit{
+    width: 230px;
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: start;
+}
+.face{
+    width: 230px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.podtextdozh{
+    width: 960px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+.vidautoH1 li::before{
+     content: "——";
+     color: #5C8EE5;
+     padding-right: 10px;  
+}
+.vidautoH1 li {
+    width: 960px;
+    height: 100px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-right: 100px;
+}
+.li1::before{
+     content: "01.";
+     color: #5C8EE5;
+     padding-right: 10px;  
+}
+.vidautoH2 li {
+    width: 960px;
+    height: 100px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-right: 100px;
+}
+.li2::before{
+     content: "02.";
+     color: #5C8EE5;
+     padding-right: 10px;  
+}
+
+.li3::before{
+     content: "03.";
+     color: #5C8EE5;
+     padding-right: 10px;  
+}

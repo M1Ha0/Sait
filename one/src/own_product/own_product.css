@@ -1,0 +1,24 @@
+.zag{
+    width: 1920px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.seozag{
+    width: 1440px;
+    height: 179px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.chitat{
+    width: 166px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}

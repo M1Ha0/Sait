@@ -1,0 +1,47 @@
+.veribigcount{
+    margin: 0 auto;
+    width: 1920px;
+    height: 2230px;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.veri{
+    width: 1467px;
+    height: 2120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.innum{
+    width: 230px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.num{
+    font-family: Noto Sans;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 0%;
+text-align: center;
+}
+.onenum{
+    width: 15px;
+    height: 15;
+    border: solid 1px  #5C8EE5;
+    padding: 15px;
+    color: #5C8EE5;font-family: Noto Sans;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: center;
+}

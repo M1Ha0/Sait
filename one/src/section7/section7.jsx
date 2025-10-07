@@ -15,9 +15,7 @@ function Section7() {
           <p className='textmal'>Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!</p>
           <div className='countin'>
             <input placeholder="Имя" className='name' type="text" />
-                    <input className='' type="text"  class="iphone" 
-                           placeholder="+_ (___) __-__-___" 
-                           maxlength="18"/>
+            <input className='' type="text"  class="iphone" placeholder="+_ (___) __-__-___" maxlength="18"/>
           </div>
           <div className='malbalon'>
             <button className='kons'>Отправить заявку</button>

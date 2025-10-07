@@ -2,13 +2,13 @@ import { useState } from 'react'
 import './section.css'
 import photo1 from '../assets/logo.png'
 import photo2 from '../assets/phone.png'
-import ikon1  from '../assets/Frame 33.png'
+import ikon1  from '../assets/Frame 36.png'
 import ikon2  from '../assets/Frame 34.png'
-import ikon3  from '../assets/Frame 35.png'
-import ikon4  from '../assets/Frame 36.png'
+import ikon3  from '../assets/Frame 33.png'
+import ikon4  from '../assets/Frame 35.png'
 import ikon5  from '../assets/Frame 37.png'
 import { Link } from 'react-router-dom'
-
+import HeaderW from '../headerW/headerW'
 function Section() {
   const [count, setCount] = useState(0)
 
@@ -16,7 +16,7 @@ function Section() {
     <>
 
     <section className='header'>
-      <Header/>
+      <HeaderW/>
       <div className='line'></div>
       <div className='contm'>
         <h1 className='texttop'>КОМПЛЕКСНОЕ ОБЕСПЕЧЕНИЕ ТОВАРАМИ И РАСХОДНЫМИ МАТЕРИАЛАМИ БИЗНЕСА</h1>

@@ -1,0 +1,112 @@
+.zag{
+    width: 1920px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seozag{
+    width: 1440px;
+    height: 179px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.chitat{
+    width: 166px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+.countext1{
+    width: 500px;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zalisimo{
+    width: 1920px;
+    height: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  margin: 0 auto;
+}
+.zalik{
+    width: 1440px;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.doliv{
+width: 720px;
+height: 700px;
+display: flex;
+flex-direction: column;
+align-items: start;
+justify-content: space-between;
+}
+.ezeA{
+    width: 1920px;
+    height: 770px;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 250px;
+    margin: 0 auto;
+}
+.podezeA{
+    width: 1680px;
+    height: 770px;
+    justify-content: space-between;
+    display: flex;
+}
+.bigvid{
+   width: 1920px;
+   height: 600px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+     margin: 0 auto;
+}
+.vid{
+    width: 1400px;
+    height: 488px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+.vidautoH{
+    font-family: Noto Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #292D33;
+     list-style: none;
+     width: 1384px;
+     height: 236px;
+     display: flex;
+     flex-wrap: wrap;
+     margin-right: 0;
+     padding-left: 5px;
+}
+.vidautoH li::before{
+     content: "——";
+     color: #5C8EE5;
+     padding-right: 5px;  
+}
+.vidautoH li {
+    width: 304px;
+    height: 26px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}

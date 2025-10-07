@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './section6.css'
 import arl from '../assets/arrow.png'
 import arr from '../assets/arrow (1).png'
+import { Link } from 'react-router-dom'
 
 function Section6() {
   const [count, setCount] = useState(0)
@@ -13,7 +14,7 @@ function Section6() {
         <h1 className='work'>БЛОГ ЭКСПЕРТОВ В ОБЛАСТИ ПРОИЗВОДСТВА</h1>
         <nav className='modernbox'>
           <div className='mbox1'>
-            <h3 className='text3'>Современная методология разработки одухотворила всех причастных</h3>
+            <Link to = {'/blog_more'}  className='text31'>Современная методология разработки одухотворила всех причастных</Link>
             <p className='textmal'>Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
           </div>
           <div className='mbox2'>
